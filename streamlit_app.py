@@ -1,7 +1,9 @@
 import os
 import re
+import streamlit
 from pathlib import Path
 from pypdf import PdfReader
+
 
 def extract_text_from_pdf(file_path):
     reader = PdfReader(file_path)
